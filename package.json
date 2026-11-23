@@ -1,0 +1,15 @@
+{
+  "name": "coming-from-javascript",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "rust": "bun scripts/patch-rust-js.ts && bun vendor/rust-js/tooling/cli.js build",
+    "test": "bun test chapters && cargo test --workspace"
+  },
+  "dependencies": {
+    "@rust-js/std": "file:vendor/rust-js/std"
+  },
+  "devDependencies": {
+    "@types/bun": "1.4.5"
+  }
+}
