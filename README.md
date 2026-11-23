@@ -45,6 +45,9 @@ Chapters are listed here as they're written.
 8. [Equality](chapters/08-equality/README.md): `==` that compares
    what's inside, never values of two types, `includes` and "unique" that
    work on objects, and an order a type derives.
+9. [String flags are enums](chapters/09-string-flags-are-enums/README.md):
+   a state as an enum whose variants carry their own data, a typo that
+   doesn't compile, and a `match` that must handle every state.
 
 ## Running it
 

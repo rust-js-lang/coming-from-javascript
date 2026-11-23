@@ -1,0 +1,6 @@
+[
+  {"can_cancel":true,"describe":"waiting for payment","order":{"state":"pending"},"shipped":{"state":"pending"}},
+  {"can_cancel":true,"describe":"paid 2599 cents","order":{"amountCents":2599,"state":"paid"},"shipped":{"state":"shipped","tracking":"TRK1"}},
+  {"can_cancel":false,"describe":"on its way: TRK0","order":{"state":"shipped","tracking":"TRK0"},"shipped":{"state":"shipped","tracking":"TRK0"}},
+  {"can_cancel":false,"describe":"cancelled: changed mind","order":{"reason":"changed mind","state":"cancelled"},"shipped":{"reason":"changed mind","state":"cancelled"}}
+]
