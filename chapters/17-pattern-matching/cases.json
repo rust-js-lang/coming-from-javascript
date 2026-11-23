@@ -1,0 +1,15 @@
+[
+  {"path":"/","title":"Home","user_id":null},
+  {"path":"/users","title":"Everyone","user_id":null},
+  {"path":"/users/42","title":"User 42","user_id":42},
+  {"path":"/users/0","title":"The admin","user_id":0},
+  {"path":"/users/42/posts","title":"Posts by user 42","user_id":42},
+  {"path":"/users/42/","title":"User 42","user_id":42},
+  {"path":"/users/abc","title":"Not found","user_id":null},
+  {"path":"/users/-1","title":"Not found","user_id":null},
+  {"path":"/users/4.5","title":"Not found","user_id":null},
+  {"path":"/files/docs/a.md","title":"Document docs/a.md","user_id":null},
+  {"path":"/files/img/b.png","title":"File img/b.png","user_id":null},
+  {"path":"/files","title":"Not found","user_id":null},
+  {"path":"/nope","title":"Not found","user_id":null}
+]

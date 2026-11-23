@@ -71,6 +71,9 @@ Chapters are listed here as they're written.
 16. [Generics](chapters/16-generics/README.md): one function for many
     types with a bound that says what a `T` can do, where JavaScript's
     `largest` answers for objects anyway; generic structs.
+17. [Pattern matching](chapters/17-pattern-matching/README.md): a URL
+    router by the shape of its parts, slice patterns, `..`, `@`, guards
+    and `let else`, where JavaScript's makes a page for user NaN.
 
 ## Running it
 
