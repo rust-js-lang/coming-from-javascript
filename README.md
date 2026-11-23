@@ -30,6 +30,9 @@ Chapters are listed here as they're written.
 3. [`let`, `const` and `mut`](chapters/03-let-const-and-mut/README.md):
    nothing changes unless it says `mut`, contents included, and a function
    that changes its argument says `&mut` where it's written and called.
+4. [Numbers](chapters/04-numbers/README.md): one JavaScript `number`
+   becomes a kind for each job, whole numbers that divide whole, `as` for
+   every change of kind, overflow you decide on, and `u64` as a `bigint`.
 
 ## Running it
 
