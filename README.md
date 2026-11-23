@@ -48,6 +48,9 @@ Chapters are listed here as they're written.
 9. [String flags are enums](chapters/09-string-flags-are-enums/README.md):
    a state as an enum whose variants carry their own data, a typo that
    doesn't compile, and a `match` that must handle every state.
+10. [`null` and `undefined` are `Option`](chapters/10-null-and-undefined-are-option/README.md):
+    a type for "may be missing", `unwrap_or` that keeps a 0 where `||`
+    doesn't, and `?` for giving up early.
 
 ## Running it
 
