@@ -89,6 +89,9 @@ Chapters are listed here as they're written.
 22. [`async`](chapters/22-async/README.md): the same words, a forgotten
     `await` that doesn't compile where JavaScript says "Hello,
     undefined!", and futures that wait where promises start.
+23. [Testing](chapters/23-testing/README.md): `#[test]` built in, unit
+    tests beside the code that reach its private helpers, `should_panic`,
+    and the same Rust tests run as JavaScript by `rust-js test`.
 
 ## Running it
 
@@ -100,7 +103,8 @@ git clone --recurse-submodules https://github.com/rust-js-lang/coming-from-javas
 cd coming-from-javascript
 bun install
 bun run rust     # compile every chapter's Rust to JavaScript with rust-js
-bun run test     # each chapter's tests, then native Rust's
+bun run test     # each chapter's tests, then native Rust's, then
+                 # chapter 23's Rust tests as JavaScript
 ```
 
 To run one chapter's comparison: `bun chapters/01-the-same-function-twice/compare.js`.

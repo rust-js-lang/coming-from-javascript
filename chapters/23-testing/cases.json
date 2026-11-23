@@ -1,0 +1,14 @@
+{
+  "passwords": [
+    ["Correct-Horse-9","strong"],
+    ["aB3$","weak"],
+    ["password","weak"],
+    ["Password1","okay"],
+    ["correcthorsebattery","weak"],
+    ["Tr0ub4dor&3","okay"]
+  ],
+  "averages": [
+    [[42,58],50],
+    [[90,85,77],84]
+  ]
+}
