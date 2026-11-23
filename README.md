@@ -24,6 +24,9 @@ Chapters are listed here as they're written.
 1. [The same function, twice](chapters/01-the-same-function-twice/README.md):
    three JavaScript functions and their Rust, how to read the Rust, and the
    JavaScript rust-js writes, which reads like yours.
+2. [Types are checked before it runs](chapters/02-types-are-checked-before-it-runs/README.md):
+   what a type is, the typo and the `"2" + 1` the compiler stops before
+   anything runs, `parse` as a step you write, and inference.
 
 ## Running it
 
