@@ -68,6 +68,9 @@ Chapters are listed here as they're written.
     a trait lists what a type can do and an `impl` must have it all, so a
     misspelled `send` is caught before a broadcast half-sends; `impl` and
     `dyn`.
+16. [Generics](chapters/16-generics/README.md): one function for many
+    types with a bound that says what a `T` can do, where JavaScript's
+    `largest` answers for objects anyway; generic structs.
 
 ## Running it
 
