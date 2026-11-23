@@ -86,6 +86,9 @@ Chapters are listed here as they're written.
 21. [npm is cargo](chapters/21-npm-is-cargo/README.md): `mod` declares
     a module, `pub(crate)` is a privacy JavaScript lacks, `pub use` is the
     front door, and a crates.io dependency compiled to JavaScript too.
+22. [`async`](chapters/22-async/README.md): the same words, a forgotten
+    `await` that doesn't compile where JavaScript says "Hello,
+    undefined!", and futures that wait where promises start.
 
 ## Running it
 

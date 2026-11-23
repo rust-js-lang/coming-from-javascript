@@ -1,0 +1,12 @@
+{
+  "greetings": [
+    [1,"Hello, Ada!"],
+    [2,"Hello, Grace!"],
+    [9,"sorry: no user 9"]
+  ],
+  "totals": [
+    [[1,2],{"Ok":121}],
+    [[1,9,2],{"Err":"no user 9"}],
+    [[],{"Ok":0}]
+  ]
+}
