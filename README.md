@@ -19,8 +19,6 @@ starts further along.
 
 ## Chapters
 
-Chapters are listed here as they're written.
-
 1. [The same function, twice](chapters/01-the-same-function-twice/README.md):
    three JavaScript functions and their Rust, how to read the Rust, and the
    JavaScript rust-js writes, which reads like yours.
@@ -92,6 +90,9 @@ Chapters are listed here as they're written.
 23. [Testing](chapters/23-testing/README.md): `#[test]` built in, unit
     tests beside the code that reach its private helpers, `should_panic`,
     and the same Rust tests run as JavaScript by `rust-js test`.
+24. [Calling JavaScript, and where JavaScript is easier](chapters/24-calling-js-and-where-javascript-is-easier/README.md):
+    a binding to your own JavaScript, a JavaScript callback as a closure,
+    and an honest list of what JavaScript makes easier.
 
 ## Running it
 

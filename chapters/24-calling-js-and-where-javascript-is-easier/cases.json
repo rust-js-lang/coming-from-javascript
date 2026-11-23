@@ -1,0 +1,8 @@
+{
+  "events": [["ada","pushed a fix",1000],["bot","ran the tests",4000],["grace","merged it",79000],["linus","said thanks",86340]],
+  "kept": ["ada","grace","linus"],
+  "greetings": [
+    ["Ada",null,"Hello, Ada!"],
+    ["Grace","Good morning","Good morning, Grace!"]
+  ]
+}
