@@ -1,0 +1,11 @@
+[
+  {"form":["ada@example.com","correct horse","36"],"message":"welcome, ada@example.com","outcome":{"Ok":{"age":36,"email":"ada@example.com"}}},
+  {"form":["  grace@example.com ","battery staple"," 85 "],"message":"welcome, grace@example.com","outcome":{"Ok":{"age":85,"email":"grace@example.com"}}},
+  {"form":["","correct horse","36"],"message":"sorry: an email is needed","outcome":{"Err":{"problem":"no-email"}}},
+  {"form":["ada.example.com","correct horse","36"],"message":"sorry: \"ada.example.com\" isn't an email","outcome":{"Err":{"email":"ada.example.com","problem":"bad-email"}}},
+  {"form":["ada@example.com","short","36"],"message":"sorry: the password needs at least 8 characters","outcome":{"Err":{"min":8,"problem":"short-password"}}},
+  {"form":["ada@example.com","correct horse","abc"],"message":"sorry: \"abc\" isn't an age","outcome":{"Err":{"problem":"bad-age","why":"\"abc\" isn't an age"}}},
+  {"form":["ada@example.com","correct horse","200"],"message":"sorry: 200 is out of range","outcome":{"Err":{"problem":"bad-age","why":"200 is out of range"}}},
+  {"form":["ada@example.com","correct horse","300"],"message":"sorry: \"300\" isn't an age","outcome":{"Err":{"problem":"bad-age","why":"\"300\" isn't an age"}}},
+  {"form":["ada@example.com","correct horse","0x1A"],"message":"sorry: \"0x1A\" isn't an age","outcome":{"Err":{"problem":"bad-age","why":"\"0x1A\" isn't an age"}}}
+]

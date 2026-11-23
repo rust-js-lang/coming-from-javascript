@@ -51,6 +51,9 @@ Chapters are listed here as they're written.
 10. [`null` and `undefined` are `Option`](chapters/10-null-and-undefined-are-option/README.md):
     a type for "may be missing", `unwrap_or` that keeps a 0 where `||`
     doesn't, and `?` for giving up early.
+11. [`try`/`catch` is `Result`](chapters/11-try-catch-is-result/README.md):
+    failure in the return type, an error enum naming every way, `?` to
+    pass it on, and panics kept for bugs.
 
 ## Running it
 
