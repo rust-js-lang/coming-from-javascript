@@ -1,0 +1,16 @@
+{
+  "texts": [
+    {"bytes":5,"capitalized":"Hello","chars":5,"reversed":"olleh","text":"hello","truncated":"hel…"},
+    {"bytes":6,"capitalized":"Héllo","chars":5,"reversed":"olléh","text":"héllo","truncated":"hél…"},
+    {"bytes":11,"capitalized":"😀👍 ok","chars":5,"reversed":"ko 👍😀","text":"😀👍 ok","truncated":"😀👍 …"},
+    {"bytes":12,"capitalized":"Naïve café","chars":10,"reversed":"éfac evïan","text":"naïve café","truncated":"naï…"},
+    {"bytes":0,"capitalized":"","chars":0,"reversed":"","text":"","truncated":""},
+    {"bytes":2,"capitalized":"SS","chars":1,"reversed":"ß","text":"ß","truncated":"ß"}
+  ],
+  "greetings": [
+    [["Ada"],"Hi Ada!"],
+    [["Ada","Grace"],"Hi Ada and Grace!"],
+    [["Ada","Grace","Linus"],"Hi Ada, Grace and Linus!"],
+    [[],"Hi!"]
+  ]
+}

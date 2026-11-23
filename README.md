@@ -33,6 +33,9 @@ Chapters are listed here as they're written.
 4. [Numbers](chapters/04-numbers/README.md): one JavaScript `number`
    becomes a kind for each job, whole numbers that divide whole, `as` for
    every change of kind, overflow you decide on, and `u64` as a `bigint`.
+5. [Strings are UTF-8](chapters/05-strings-are-utf-8/README.md): why
+   `length` counts an emoji twice and `slice` cuts it in half, `chars()`
+   for characters, and `String` and `&str`.
 
 ## Running it
 
