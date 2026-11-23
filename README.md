@@ -36,6 +36,9 @@ Chapters are listed here as they're written.
 5. [Strings are UTF-8](chapters/05-strings-are-utf-8/README.md): why
    `length` counts an emoji twice and `slice` cuts it in half, `chars()`
    for characters, and `String` and `&str`.
+6. [Everything is an expression](chapters/06-everything-is-an-expression/README.md):
+   `if`, blocks and `loop` that give values, and `match`, a `switch` that
+   must cover every case and never falls through.
 
 ## Running it
 
