@@ -1,0 +1,12 @@
+{
+  "name": "till",
+  "version": "1.0.0",
+  "description": "A small cash-register package, each export asking for one shape of argument (coming-from-javascript, chapter 25).",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  }
+}

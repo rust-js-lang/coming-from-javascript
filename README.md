@@ -93,6 +93,10 @@ starts further along.
 24. [Calling JavaScript, and where JavaScript is easier](chapters/24-calling-js-and-where-javascript-is-easier/README.md):
     a binding to your own JavaScript, a JavaScript callback as a closure,
     and an honest list of what JavaScript makes easier.
+25. [Calling an npm package: building its arguments](chapters/25-calling-an-npm-package/README.md):
+    every shape a package asks for, an options object, a callback, a
+    union, `null`, rest arguments, a record, a class, each built in Rust
+    beside the JavaScript rust-js writes, and what nothing checks.
 
 ## Running it
 

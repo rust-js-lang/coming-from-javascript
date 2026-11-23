@@ -7,7 +7,8 @@
     "test": "bun test chapters && cargo test --workspace && bun vendor/rust-js/tooling/cli.js test --package chapter-23-testing"
   },
   "dependencies": {
-    "@rust-js/std": "file:vendor/rust-js/std"
+    "@rust-js/std": "file:vendor/rust-js/std",
+    "till": "file:chapters/25-calling-an-npm-package/till"
   },
   "devDependencies": {
     "@types/bun": "1.4.5"

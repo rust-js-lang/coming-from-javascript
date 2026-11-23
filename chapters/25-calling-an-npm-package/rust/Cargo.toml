@@ -1,0 +1,13 @@
+[package]
+name = "chapter-25-calling-an-npm-package"
+version = "0.0.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+# rust-js's `js` crate: `Dict`, `Rest`, `Defined`, what JavaScript's values are.
+js = { package = "rust-js-builtins", path = "../../../vendor/rust-js/builtins" }
+
+# rust-js compiles with `--cfg=rust_js`.
+[lints.rust]
+unexpected_cfgs = { level = "warn", check-cfg = ["cfg(rust_js)"] }
