@@ -77,6 +77,9 @@ Chapters are listed here as they're written.
 18. [Moves](chapters/18-moves/README.md): one owner, so a match's
     players can't be changed behind its back; `clone` and `Copy`, and
     what JavaScript callers should know today.
+19. [Borrowing](chapters/19-borrowing/README.md): `&` to read and
+    `&mut` to change, many readers or one writer, so a `splice` in a loop
+    and a reference into a growing list don't compile.
 
 ## Running it
 

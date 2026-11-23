@@ -1,0 +1,5 @@
+[
+  {"after_remove":["bread"],"after_swap":["tea","eggs","bread","milk"],"pending":1,"tasks":[["milk",true],["eggs",true],["bread",false],["tea",true]]},
+  {"after_remove":["only"],"after_swap":["only"],"pending":1,"tasks":[["only",false]]},
+  {"after_remove":[],"after_swap":[],"pending":0,"tasks":[]}
+]
