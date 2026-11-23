@@ -42,6 +42,9 @@ Chapters are listed here as they're written.
 7. [Objects are structs](chapters/07-objects-are-structs/README.md): a
    struct names its fields once, methods take `self` as a parameter, and
    a typo'd field or a lost `this` can't happen.
+8. [Equality](chapters/08-equality/README.md): `==` that compares
+   what's inside, never values of two types, `includes` and "unique" that
+   work on objects, and an order a type derives.
 
 ## Running it
 
