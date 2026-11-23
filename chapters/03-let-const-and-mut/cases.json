@@ -1,0 +1,18 @@
+{
+  "slugs": [
+    ["  Hello World ","hello-world"],
+    ["Rust for JavaScript","rust-for-javascript"],
+    ["one","one"],
+    ["",""],
+    ["Tabs\tand\nlines","tabs-and-lines"]
+  ],
+  "countdowns": [
+    [3,[3,2,1]],
+    [1,[1]],
+    [0,[]]
+  ],
+  "tags": [
+    [["rust","js"],[true,true],["rust","js"]],
+    [["a","b","c","d"],[true,true,true,false],["a","b","c"]]
+  ]
+}

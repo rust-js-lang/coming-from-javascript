@@ -27,6 +27,9 @@ Chapters are listed here as they're written.
 2. [Types are checked before it runs](chapters/02-types-are-checked-before-it-runs/README.md):
    what a type is, the typo and the `"2" + 1` the compiler stops before
    anything runs, `parse` as a step you write, and inference.
+3. [`let`, `const` and `mut`](chapters/03-let-const-and-mut/README.md):
+   nothing changes unless it says `mut`, contents included, and a function
+   that changes its argument says `&mut` where it's written and called.
 
 ## Running it
 
