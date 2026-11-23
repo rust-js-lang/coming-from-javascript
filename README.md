@@ -54,6 +54,10 @@ Chapters are listed here as they're written.
 11. [`try`/`catch` is `Result`](chapters/11-try-catch-is-result/README.md):
     failure in the return type, an error enum naming every way, `?` to
     pass it on, and panics kept for bugs.
+12. [Arrays and iterators](chapters/12-arrays-and-iterators/README.md):
+    a `Vec` owns and a slice borrows, so a function that reads can't sort
+    your array; lazy iterators, and `Option`s where JavaScript gives
+    `-Infinity` and `undefined`.
 
 ## Running it
 

@@ -1,0 +1,11 @@
+{
+  "scores": [
+    {"at":[9,100,null],"highest":100,"scores":[9,100,85,10],"top_three":[100,85,10]},
+    {"at":[70,null,null],"highest":70,"scores":[70],"top_three":[70]},
+    {"at":[null,null,null],"highest":null,"scores":[],"top_three":[]}
+  ],
+  "classes": [
+    [[["Ada",91],["Alan",49],["Grace",50],["Linus",12]],["Ada","Grace"],"Alan"],
+    [[["Tux",80]],["Tux"],null]
+  ]
+}
