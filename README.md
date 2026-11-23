@@ -58,6 +58,9 @@ Chapters are listed here as they're written.
     a `Vec` owns and a slice borrows, so a function that reads can't sort
     your array; lazy iterators, and `Option`s where JavaScript gives
     `-Infinity` and `undefined`.
+13. [`Map`, `Set`, and objects as maps](chapters/13-map-set-and-objects-as-maps/README.md):
+    the word "constructor" a plain object can't count, `HashMap` and
+    `HashSet` with one key type, `entry`, and order you ask for.
 
 ## Running it
 

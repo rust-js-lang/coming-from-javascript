@@ -99,6 +99,14 @@ dependencies = [
 ]
 
 [[package]]
+name = "chapter-13-map-set-and-objects-as-maps"
+version = "0.0.0"
+dependencies = [
+ "serde",
+ "serde_json",
+]
+
+[[package]]
 name = "itoa"
 version = "1.0.19"
 source = "registry+https://github.com/rust-lang/crates.io-index"

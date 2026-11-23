@@ -1,0 +1,13 @@
+{
+  "counts": [
+    ["the cat and the hat",[["and",1],["cat",1],["hat",1],["the",2]]],
+    ["The constructor of the toString",[["constructor",1],["of",1],["the",2],["tostring",1]]],
+    ["",[]],
+    ["b a B a",[["a",2],["b",2]]]
+  ],
+  "shared": [
+    ["rust and js","js and css",["and","js"]],
+    ["one","two",[]],
+    ["a constructor","the constructor",["constructor"]]
+  ]
+}
