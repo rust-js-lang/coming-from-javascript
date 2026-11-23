@@ -83,6 +83,9 @@ Chapters are listed here as they're written.
 20. [`Rc` and `RefCell`](chapters/20-rc-and-refcell/README.md): sharing
     on purpose, a cart the header and the checkout both own, borrows
     checked as the program runs.
+21. [npm is cargo](chapters/21-npm-is-cargo/README.md): `mod` declares
+    a module, `pub(crate)` is a privacy JavaScript lacks, `pub use` is the
+    front door, and a crates.io dependency compiled to JavaScript too.
 
 ## Running it
 
@@ -104,6 +107,7 @@ To run one chapter's comparison: `bun chapters/01-the-same-function-twice/compar
 ```
 coming-from-javascript/
 ├── vendor/rust-js/              the compiler, a submodule pinned to a commit
+├── rust-js/crates/              crates.io crates rust-js compiled (chapter 21)
 ├── chapters/01-the-same-function-twice/
 │   ├── js/stats.js              the JavaScript
 │   ├── rust/src/lib.rs          the Rust
