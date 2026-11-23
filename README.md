@@ -80,6 +80,9 @@ Chapters are listed here as they're written.
 19. [Borrowing](chapters/19-borrowing/README.md): `&` to read and
     `&mut` to change, many readers or one writer, so a `splice` in a loop
     and a reference into a growing list don't compile.
+20. [`Rc` and `RefCell`](chapters/20-rc-and-refcell/README.md): sharing
+    on purpose, a cart the header and the checkout both own, borrows
+    checked as the program runs.
 
 ## Running it
 
