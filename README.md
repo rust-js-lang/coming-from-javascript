@@ -64,6 +64,10 @@ Chapters are listed here as they're written.
 14. [Functions and closures](chapters/14-functions-and-closures/README.md):
     closures that copy a loop's `i` where `var` shares one, `move`, and
     `Fn` and `FnMut` saying what a closure does to what it holds.
+15. [Duck typing is traits](chapters/15-duck-typing-is-traits/README.md):
+    a trait lists what a type can do and an `impl` must have it all, so a
+    misspelled `send` is caught before a broadcast half-sends; `impl` and
+    `dyn`.
 
 ## Running it
 

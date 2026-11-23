@@ -1,0 +1,5 @@
+[
+  {"emails":["ada@example.com","grace@example.com"],"message":"the build is green again","phones":["555-0100"],"previews":["email: the build ","email: the build ","sms to 555-0100"],"sent":["emailed ada@example.com: the build is green again","emailed grace@example.com: the build is green again","texted 555-0100: the build is green a"]},
+  {"emails":[],"message":"hi","phones":["555-0199"],"previews":["sms to 555-0199"],"sent":["texted 555-0199: hi"]},
+  {"emails":["linus@example.com"],"message":"","phones":[],"previews":["email: "],"sent":["emailed linus@example.com: "]}
+]
