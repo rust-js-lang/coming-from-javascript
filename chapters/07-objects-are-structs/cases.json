@@ -1,0 +1,5 @@
+[
+  {"remaining":1,"steps":[["complete",0],["bump",1],["bump",1]],"summaries":["[x] buy milk (p1)","[ ] write chapter 7 (p3)"],"titles":["buy milk","write chapter 7"]},
+  {"remaining":1,"steps":[["bump",0],["bump",0],["bump",0],["bump",0],["bump",0],["bump",0]],"summaries":["[ ] call Ada (p5)"],"titles":["call Ada"]},
+  {"remaining":0,"steps":[],"summaries":[],"titles":[]}
+]

@@ -39,6 +39,9 @@ Chapters are listed here as they're written.
 6. [Everything is an expression](chapters/06-everything-is-an-expression/README.md):
    `if`, blocks and `loop` that give values, and `match`, a `switch` that
    must cover every case and never falls through.
+7. [Objects are structs](chapters/07-objects-are-structs/README.md): a
+   struct names its fields once, methods take `self` as a parameter, and
+   a typo'd field or a lost `this` can't happen.
 
 ## Running it
 
