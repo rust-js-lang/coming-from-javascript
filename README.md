@@ -74,6 +74,9 @@ Chapters are listed here as they're written.
 17. [Pattern matching](chapters/17-pattern-matching/README.md): a URL
     router by the shape of its parts, slice patterns, `..`, `@`, guards
     and `let else`, where JavaScript's makes a page for user NaN.
+18. [Moves](chapters/18-moves/README.md): one owner, so a match's
+    players can't be changed behind its back; `clone` and `Copy`, and
+    what JavaScript callers should know today.
 
 ## Running it
 

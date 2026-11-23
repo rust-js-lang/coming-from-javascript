@@ -1,0 +1,10 @@
+{
+  "line_ups": [
+    [["ann","bo","cy","di","ed"],"ann, bo, cy, di, ed (full)"],
+    [[]," (full)"]
+  ],
+  "goals": [
+    [[0,0],true,[1,0]],
+    [[2,1],false,[2,2]]
+  ]
+}
