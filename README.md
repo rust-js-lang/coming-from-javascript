@@ -61,6 +61,9 @@ Chapters are listed here as they're written.
 13. [`Map`, `Set`, and objects as maps](chapters/13-map-set-and-objects-as-maps/README.md):
     the word "constructor" a plain object can't count, `HashMap` and
     `HashSet` with one key type, `entry`, and order you ask for.
+14. [Functions and closures](chapters/14-functions-and-closures/README.md):
+    closures that copy a loop's `i` where `var` shares one, `move`, and
+    `Fn` and `FnMut` saying what a closure does to what it holds.
 
 ## Running it
 
